@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: "Main task"
+      import_tasks: tasks/main-task.yml
+
