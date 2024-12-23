@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: local
   tasks:
     - name: Copy template file with password variable
       template:
